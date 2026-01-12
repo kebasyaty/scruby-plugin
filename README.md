@@ -7,7 +7,6 @@ Library for creating Scruby plugins.
 
 <p>
     <a href="https://github.com/kebasyaty/scruby-plugin/actions/workflows/test.yml" alt="Build Status"><img src="https://github.com/kebasyaty/scruby-plugin/actions/workflows/test.yml/badge.svg" alt="Build Status"></a>
-    <a href="https://kebasyaty.github.io/scruby-plugin/" alt="Docs"><img src="https://img.shields.io/badge/docs-available-brightgreen.svg" alt="Docs"></a>
     <a href="https://pypi.python.org/pypi/scruby-plugin/" alt="PyPI pyversions"><img src="https://img.shields.io/pypi/pyversions/scruby-plugin.svg" alt="PyPI pyversions"></a>
     <a href="https://pypi.python.org/pypi/scruby-plugin/" alt="PyPI status"><img src="https://img.shields.io/pypi/status/scruby-plugin.svg" alt="PyPI status"></a>
     <a href="https://pypi.python.org/pypi/scruby-plugin/" alt="PyPI version fury.io"><img src="https://badge.fury.io/py/scruby-plugin.svg" alt="PyPI version fury.io"></a>
