@@ -1,6 +1,6 @@
 [project]
 name = "scruby-plugin"
-version = "0.2.0"
+version = "0.2.1"
 description = "Library for creating Scruby plugins."
 readme = "README.md"
 authors = [{ name = "kebasyaty", email = "kebasyaty@gmail.com" }]
@@ -30,7 +30,7 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://kebasyaty.github.io/scruby-plugin/"
+Homepage = "https://github.com/kebasyaty/scruby-plugin"
 Repository = "https://github.com/kebasyaty/scruby-plugin"
 Source = "https://github.com/kebasyaty/scruby-plugin"
 "Bug Tracker" = "https://github.com/kebasyaty/scruby-plugin/issues"
