@@ -57,5 +57,6 @@ async def test_scruby_plugin() -> None:
     assert meta.hash_reduce_left == 6
     assert meta.max_branch_number == 256
     assert meta.counter_documents == 0
+    #
     # Delete DB.
     Scruby.napalm()
