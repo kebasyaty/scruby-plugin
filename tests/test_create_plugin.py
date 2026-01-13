@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import logging
 from typing import Any
 
 import pytest
@@ -15,22 +14,21 @@ pytestmark = pytest.mark.asyncio(loop_scope="module")
 
 
 # Create plugin
-class PrintMeta(ScrubyPlugin):
-    """Example of ScrubyPlugin."""
+class CollectionMeta(ScrubyPlugin):
+    """Example."""
 
     def __init__(self, scruby: Any) -> None:  # noqa: D107
         ScrubyPlugin.__init__(self, scruby)
 
-    async def run(self) -> None:
+    async def get(self) -> Any:
         """Print metadata to console."""
         scruby = self.scruby()
-        meta = await scruby.get_meta()
-        logging.info(meta)
+        return await scruby.get_meta()
 
 
-# Add plugin
+# Plugins connection.
 settings.PLUGINS = [
-    PrintMeta,
+    CollectionMeta,
 ]
 
 
@@ -53,6 +51,11 @@ async def test_scruby_plugin() -> None:
     """Test ScrubyPlugin."""
     # Get collection `Car`.
     car_coll = await Scruby.collection(Car)
-    await car_coll.plugins.printMeta.run()
+    meta = await car_coll.plugins.collectionMeta.get()
+    assert meta.db_root == "ScrubyDB"
+    assert meta.collection_name == "Car"
+    assert meta.hash_reduce_left == 6
+    assert meta.max_branch_number == 256
+    assert meta.counter_documents == 0
     # Delete DB.
     Scruby.napalm()
