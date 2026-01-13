@@ -1,6 +1,6 @@
 [project]
 name = "scruby-plugin"
-version = "0.2.2"
+version = "0.2.3"
 description = "Library for creating Scruby plugins."
 readme = "README.md"
 authors = [{ name = "kebasyaty", email = "kebasyaty@gmail.com" }]
@@ -54,7 +54,7 @@ requires = ["uv_build>=0.9.24,<0.10.0"]
 build-backend = "uv_build"
 
 [dependency-groups]
-dev = []
+dev = ["scruby>=0.32.1"]
 lint = ["pre-commit>=4.5.1", "pyrefly>=0.47.0", "ruff>=0.14.11"]
 test = ["pytest>=9.0.2", "pytest-asyncio>=1.3.0"]
 docs = []
@@ -187,6 +187,7 @@ missing-attribute = false
 matches = "tests/**"
 
 [tool.pyrefly.sub-config.errors]
+missing-attribute = false
 
 
 [tool.pytest.ini_options]
