@@ -15,3 +15,4 @@
 - [pre-commit](https://pypi.org/project/pre-commit/ "pre-commit")
 - [pytest](https://pypi.org/project/pytest/ "pytest")
 - [pytest-asyncio](https://pypi.org/project/pytest-asyncio/ "pytest-asyncio")
+- [scruby](https://pypi.org/project/scruby/ "scruby")
