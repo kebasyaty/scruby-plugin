@@ -6,7 +6,8 @@ from typing import Any
 
 import pytest
 from pydantic import Field
-from scruby import Scruby, ScrubyModel, settings
+from scruby import Scruby, ScrubyModel
+from scruby import settings as scruby_settings
 
 from scruby_plugin import ScrubyPlugin
 
@@ -27,7 +28,7 @@ class CollectionMeta(ScrubyPlugin):
 
 
 # Plugins connection.
-settings.PLUGINS = [
+scruby_settings.PLUGINS = [
     CollectionMeta,
 ]
 
