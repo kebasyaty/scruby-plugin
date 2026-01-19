@@ -2,7 +2,7 @@
 
 #### v0.2.4 2026-01-19
 
-- Library publication.
+- Fixed and optimized.
 
 #### v0.2.0-beta 2026-01-12
 
