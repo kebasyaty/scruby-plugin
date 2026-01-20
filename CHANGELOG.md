@@ -1,5 +1,12 @@
 ### CHANGELOG
 
+#### v0.3.0 2026-01-20
+
+- Transition to `Sruby v0.34.0`.
+- Upgraded dependencies.
+- Updated tests.
+- Updated README.md
+
 #### v0.2.4 2026-01-19
 
 - Fixed and optimized.
