@@ -50,7 +50,7 @@ import anyio
 from typing import Any
 from pydantic import Field
 from scruby import Scruby, ScrubyModel
-from scruby import settings as scruby_settings
+from scruby import ScrubySettings
 from scruby_plugin import ScrubyPlugin
 from pprint import pprint as pp
 
@@ -66,7 +66,7 @@ class CollectionMeta(ScrubyPlugin):
 
 
 # Plugins connection.
-scruby_settings.PLUGINS = [
+ScrubySettings.plugins = [
     CollectionMeta,
 ]
 
