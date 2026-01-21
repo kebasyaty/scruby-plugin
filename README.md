@@ -22,7 +22,7 @@ Library for creating Scruby plugins.
 
 ## Requirements
 
-[View the list of requirements](https://github.com/kebasyaty/scruby-plugin/blob/v0/REQUIREMENTS.md "Requirements").
+[![Requirements](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/link-requirements.svg "Requirements")](https://github.com/kebasyaty/scruby-plugin/blob/v0/REQUIREMENTS.md "Requirements")
 
 ## Installation
 
@@ -103,8 +103,8 @@ if __name__ == "__main__":
 
 ## Changelog
 
-[View the change history](https://github.com/kebasyaty/scruby-plugin/blob/v0/CHANGELOG.md "Changelog").
+[![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/link-changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v0/CHANGELOG.md "Changelog")
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE "MIT").
+[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/link-mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE "MIT")
