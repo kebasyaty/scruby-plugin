@@ -14,5 +14,5 @@ from typing import Any
 class ScrubyPlugin:
     """Base class for creating Scruby plugins."""
 
-    def __init__(self, scruby: Any) -> None:  # noqa: D107
-        self.scruby = weakref.ref(scruby)
+    def __init__(self, scruby_self: Any) -> None:  # noqa: D107
+        self.scruby_self = weakref.ref(scruby_self)
