@@ -56,12 +56,12 @@ from pprint import pprint as pp
 
 # Create plugin
 class CollectionMeta(ScrubyPlugin):
-    def __init__(self, scruby: Any) -> None:
-        ScrubyPlugin.__init__(self, scruby)
+    def __init__(self, scruby_self: Any) -> None:
+        ScrubyPlugin.__init__(self, scruby_self)
 
     async def get(self) -> Any:
-        scruby = self.scruby()
-        return await scruby.get_meta()
+        scruby_self = self.scruby_self()
+        return await scruby_self.get_meta()
 
 
 # Plugins connection.
