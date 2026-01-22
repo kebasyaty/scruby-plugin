@@ -22,7 +22,7 @@ Library for creating Scruby plugins.
 
 ## Requirements
 
-[![Requirements](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/link-requirements.svg "Requirements")](https://github.com/kebasyaty/scruby-plugin/blob/v0/REQUIREMENTS.md "Requirements")
+[![Requirements](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/requirements.svg "Requirements")](https://github.com/kebasyaty/scruby-plugin/blob/v0/REQUIREMENTS.md "Requirements")
 
 ## Installation
 
@@ -103,8 +103,8 @@ if __name__ == "__main__":
 
 ## Changelog
 
-[![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/link-changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v0/CHANGELOG.md "Changelog")
+[![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v0/CHANGELOG.md "Changelog")
 
 ## License
 
-[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/link-mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE "MIT")
+[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE "MIT")
