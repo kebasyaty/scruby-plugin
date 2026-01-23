@@ -1,13 +1,13 @@
 [project]
 name = "scruby-plugin"
-version = "0.3.3"
+version = "0.3.4"
 description = "Library for creating Scruby plugins."
 readme = "README.md"
 authors = [{ name = "kebasyaty", email = "kebasyaty@gmail.com" }]
 license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.12,<4.0"
-keywords = ["scruby", "plugin", "database"]
+keywords = ["scruby", "create", "plugin", "database"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
