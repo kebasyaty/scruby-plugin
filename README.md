@@ -20,8 +20,6 @@ Library for creating Scruby plugins.
 
 <br>
 
-## Requirements
-
 [![Requirements](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/requirements.svg "Requirements")](https://github.com/kebasyaty/scruby-plugin/blob/v0/REQUIREMENTS.md "Requirements")
 
 ## Installation
@@ -101,10 +99,8 @@ if __name__ == "__main__":
     anyio.run(main)
 ```
 
-## Changelog
+<br>
 
 [![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v0/CHANGELOG.md "Changelog")
-
-## License
 
 [![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE "MIT")
