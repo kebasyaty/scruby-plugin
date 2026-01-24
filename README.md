@@ -35,8 +35,8 @@ from typing import Any
 from scruby_plugin import ScrubyPlugin
 
 class PluginName(ScrubyPlugin):
-    def __init__(self, scruby: Any) -> None:
-        ScrubyPlugin.__init__(self, scruby)
+    def __init__(self, scruby_self: Any) -> None:
+        ScrubyPlugin.__init__(self, scruby_self)
 
     ...your code...
 ```
