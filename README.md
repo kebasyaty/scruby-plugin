@@ -54,7 +54,7 @@ from pprint import pprint as pp
 
 # Create plugin
 class CollectionMeta(ScrubyPlugin):
-    def __init__(self, scruby_self: Any) -> None:
+    def __init__(self, scruby_self: Scruby) -> None:
         ScrubyPlugin.__init__(self, scruby_self)
 
     async def get(self) -> Any:

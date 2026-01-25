@@ -17,7 +17,7 @@ pytestmark = pytest.mark.asyncio(loop_scope="module")
 class CollectionMeta(ScrubyPlugin):
     """Example."""
 
-    def __init__(self, scruby_self: Any) -> None:  # noqa: D107
+    def __init__(self, scruby_self: Scruby) -> None:  # noqa: D107
         ScrubyPlugin.__init__(self, scruby_self)
 
     async def get(self) -> Any:
