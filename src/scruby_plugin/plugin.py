@@ -8,11 +8,12 @@ from __future__ import annotations
 __all__ = ("ScrubyPlugin",)
 
 import weakref
-from typing import Any
+
+from scruby import Scruby
 
 
 class ScrubyPlugin:
     """Base class for creating Scruby plugins."""
 
-    def __init__(self, scruby_self: Any) -> None:  # noqa: D107
+    def __init__(self, scruby_self: Scruby) -> None:  # noqa: D107
         self.scruby_self = weakref.ref(scruby_self)
