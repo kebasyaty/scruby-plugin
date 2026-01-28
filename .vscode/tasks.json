@@ -20,6 +20,12 @@
       "problemMatcher": []
     },
     {
+      "label": "UV: Run Deploy",
+      "type": "shell",
+      "command": ["uv build --wheel;", "uv publish"],
+      "problemMatcher": []
+    },
+    {
       "label": "Ruff: Run Check",
       "type": "shell",
       "command": [
