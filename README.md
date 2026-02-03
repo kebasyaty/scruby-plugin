@@ -25,7 +25,7 @@ Library for creating plugins for <a href="https://pypi.org/project/scruby/" alt=
 ## Installation
 
 ```shell
-uv add scruby-plugin
+uv add scruby scruby-plugin
 ```
 
 ## Usage
