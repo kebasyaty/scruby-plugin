@@ -484,7 +484,7 @@ wheels = [
 
 [[package]]
 name = "scruby-plugin"
-version = "0.4.5"
+version = "0.4.6"
 source = { editable = "." }
 
 [package.dev-dependencies]
