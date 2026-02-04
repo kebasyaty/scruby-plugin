@@ -2,7 +2,7 @@
 
 #### v0.5.0 2026-02-04
 
-- Transition to `Sruby v0.36.0` and `XLOFT v0.11.0`.
+- Transition to `Sruby v0.35.8` and `XLOFT v0.11.0`.
 
 #### v0.4.0 2026-01-25
 
