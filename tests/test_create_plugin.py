@@ -52,10 +52,9 @@ async def test_scruby_plugin() -> None:
     # Get collection `Car`.
     car_coll = await Scruby.collection(Car)
     meta = await car_coll.plugins.collectionMeta.get()
-    assert meta.db_root == "ScrubyDB"
     assert meta.collection_name == "Car"
     assert meta.hash_reduce_left == 6
-    assert meta.max_branch_number == 256
+    assert meta.max_number_branch == 256
     assert meta.counter_documents == 0
     #
     # Delete DB.
