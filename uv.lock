@@ -479,7 +479,7 @@ wheels = [
 
 [[package]]
 name = "scruby"
-version = "0.36.1"
+version = "0.36.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -491,7 +491,7 @@ dependencies = [
     { name = "xloft" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3d/c3/4cdc7d232afd378bbdb11146d911a83d9a6534d7ef772cbbed2c33152d29/scruby-0.36.1-py3-none-any.whl", hash = "sha256:9a4e7b03d9cd1d10077029cb53e3af998cbb1296fb491756bbf907a6bfc18287", size = 33949, upload-time = "2026-03-23T07:25:47.916Z" },
+    { url = "https://files.pythonhosted.org/packages/e8/d5/d5638118598cbafe8a7129e3d975e9d716faad1ba86e54c73b8011a43b6c/scruby-0.36.2-py3-none-any.whl", hash = "sha256:72b6bbcd5d18bb11ac47934a91b3587803b9ab4e8fb678337445254b1ce89dab", size = 33948, upload-time = "2026-03-23T07:48:29.71Z" },
 ]
 
 [[package]]
