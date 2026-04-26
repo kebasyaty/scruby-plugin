@@ -1,19 +1,23 @@
 ### CHANGELOG
 
+#### v0.6.0 2026-04-26
+
+- Goto `Scruby v0.37.0`.
+
 #### v0.5.0 2026-02-04
 
-- Transition to `Sruby v0.35.8` and `XLOFT v0.11.0`.
+- Transition to `Scruby v0.35.8` and `XLOFT v0.11.0`.
 
 #### v0.4.0 2026-01-25
 
-- Transition to `Sruby v0.35.0`.
+- Transition to `Scruby v0.35.0`.
 - Upgraded dependencies.
 - Updated tests.
 - Updated README.md
 
 #### v0.3.0 2026-01-20
 
-- Transition to `Sruby v0.34.0`.
+- Transition to `Scruby v0.34.0`.
 - Upgraded dependencies.
 - Updated tests.
 - Updated README.md
