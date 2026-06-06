@@ -1,4 +1,4 @@
-# scruby-plugin
+# Scruby-Plugin
 
 Library for creating plugins for <a href="https://pypi.org/project/scruby/" alt="Scruby">Scruby</a>.
 
