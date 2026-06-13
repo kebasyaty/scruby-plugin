@@ -20,7 +20,7 @@ Library for creating plugins for <a href="https://pypi.org/project/scruby/" alt=
 
 <br>
 
-[![Requirements](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/requirements.svg "Requirements")](https://github.com/kebasyaty/scruby-plugin/blob/v0/REQUIREMENTS.md "Requirements")
+[![Requirements](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v1/assets/links/requirements.svg "Requirements")](https://github.com/kebasyaty/scruby-plugin/blob/v1/REQUIREMENTS.md "Requirements")
 
 ## Installation
 
@@ -52,7 +52,7 @@ class PluginName(ScrubyPlugin):
 import anyio
 from typing import Any
 from pydantic import Field
-from scruby import Scruby, ScrubyModel, ScrubyConfig
+from scruby import Scruby, ScrubyModel
 from scruby_plugin import ScrubyPlugin
 from pprint import pprint as pp
 
@@ -65,12 +65,6 @@ class CollectionMeta(ScrubyPlugin):
     async def get(self) -> Any:
         scruby_self = self.scruby_self()
         return await scruby_self.get_meta()
-
-
-# Plugins connection.
-ScrubyConfig.plugins = [
-    CollectionMeta,
-]
 
 
 class Car(ScrubyModel):
@@ -109,6 +103,6 @@ if __name__ == "__main__":
 
 <br>
 
-[![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v0/CHANGELOG.md "Changelog")
+[![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v1/assets/links/changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v1/CHANGELOG.md "Changelog")
 
-[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v0/assets/links/mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE "MIT")
+[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v1/assets/links/mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE "MIT")

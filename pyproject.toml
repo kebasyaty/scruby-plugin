@@ -1,6 +1,6 @@
 [project]
 name = "scruby-plugin"
-version = "0.8.1"
+version = "1.0.0"
 description = "Library for creating Scruby plugins."
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
@@ -30,14 +30,14 @@ dependencies = []
 
 [project.urls]
 "Bug Tracker" = "https://github.com/kebasyaty/scruby-plugin/issues"
-Changelog = "https://github.com/kebasyaty/scruby-plugin/blob/v0/CHANGELOG.md"
+Changelog = "https://github.com/kebasyaty/scruby-plugin/blob/v1/CHANGELOG.md"
 Homepage = "https://github.com/kebasyaty/scruby-plugin"
 Repository = "https://github.com/kebasyaty/scruby-plugin"
 Source = "https://github.com/kebasyaty/scruby-plugin"
 
 [dependency-groups]
 dev = [
-    "scruby>=0.37.2,<1.0.0",
+  "scruby>=1.6.0,<2.0.0",
 ]
 docs = []
 lint = ["pre-commit>=4.5.1", "pyrefly>=0.47.0", "ruff>=0.14.11"]
