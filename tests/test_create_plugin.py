@@ -6,7 +6,7 @@ from typing import Any
 
 import pytest
 from pydantic import Field
-from scruby import Scruby, ScrubyConfig, ScrubyModel
+from scruby import Scruby, ScrubyModel
 
 from scruby_plugin import ScrubyPlugin
 
@@ -26,12 +26,6 @@ class CollectionMeta(ScrubyPlugin):
         return await scruby_self.get_meta()
 
 
-# Plugins connection.
-ScrubyConfig.plugins = [
-    CollectionMeta,
-]
-
-
 class Car(ScrubyModel):
     """Car model."""
 
@@ -47,8 +41,14 @@ class Car(ScrubyModel):
     )
 
 
+# Activate database.
+Scruby.run(plugins=[CollectionMeta])
+
+
 async def test_scruby_plugin() -> None:
     """Test ScrubyPlugin."""
+    assert ScrubyPlugin.scruby_version == 0
+    assert CollectionMeta.scruby_version == 0
     # Get collection `Car`.
     car_coll = await Scruby.collection(Car)
     meta = await car_coll.plugins.collectionMeta.get()

@@ -8,12 +8,16 @@ from __future__ import annotations
 __all__ = ("ScrubyPlugin",)
 
 import weakref
+from typing import ClassVar
 
 from scruby import Scruby
 
 
 class ScrubyPlugin:
     """Base class for creating Scruby plugins."""
+
+    # What version of Scruby is the plugin for?
+    scruby_version: ClassVar[int] = 0
 
     def __init__(self, scruby_self: Scruby) -> None:  # noqa: D107
         self.scruby_self = weakref.ref(scruby_self)
