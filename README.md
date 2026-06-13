@@ -47,7 +47,7 @@ class PluginName(ScrubyPlugin):
 import anyio
 from typing import Any
 from pydantic import Field
-from scruby import Scruby, ScrubyModel, ScrubyConfig
+from scruby import Scruby, ScrubyModel
 from scruby_plugin import ScrubyPlugin
 from pprint import pprint as pp
 
@@ -62,15 +62,8 @@ class CollectionMeta(ScrubyPlugin):
         return await scruby_self.get_meta()
 
 
-# Plugins connection.
-ScrubyConfig.plugins = [
-    CollectionMeta,
-]
-
-
 class Car(ScrubyModel):
     """Car model."""
-
     brand: str = Field(strict=True, frozen=True)
     model: str = Field(strict=True, frozen=True)
     year: int = Field(strict=True)
@@ -84,6 +77,10 @@ class Car(ScrubyModel):
 
 
 async def main() -> None:
+    """Example."""
+    # Activate database.
+    Scruby.run(plugins=[CollectionMeta])
+
     # Get collection `Car`.
     car_coll = await Scruby.collection(Car)
     # Get metadata of collection
