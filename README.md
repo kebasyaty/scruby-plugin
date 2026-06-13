@@ -26,7 +26,7 @@ Library for creating plugins for <a href="https://pypi.org/project/scruby/" alt=
 
 ```shell
 # For Scruby version 0
-uv add "scruby-plugin>=0.8.1,<1.0.0"
+uv add "scruby-plugin>=0.8.2,<1.0.0"
 # For Scruby version 1
 uv add "scruby-plugin>=1.0.0,<2.0.0"
 # For Scruby version 2
