@@ -25,7 +25,12 @@ Library for creating plugins for <a href="https://pypi.org/project/scruby/" alt=
 ## Installation
 
 ```shell
-uv add scruby-plugin
+# For Scruby version 0
+uv add "scruby-plugin>=0.8.1,<1.0.0"
+# For Scruby version 1
+uv add "scruby-plugin>=1.0.0,<2.0.0"
+# For Scruby version 2
+uv add "scruby-plugin>=2.0.0,<3.0.0"
 ```
 
 ## Usage
@@ -47,7 +52,7 @@ class PluginName(ScrubyPlugin):
 import anyio
 from typing import Any
 from pydantic import Field
-from scruby import Scruby, ScrubyModel
+from scruby import Scruby, ScrubyModel, ScrubyConfig
 from scruby_plugin import ScrubyPlugin
 from pprint import pprint as pp
 
@@ -60,6 +65,12 @@ class CollectionMeta(ScrubyPlugin):
     async def get(self) -> Any:
         scruby_self = self.scruby_self()
         return await scruby_self.get_meta()
+
+
+# Plugins connection.
+ScrubyConfig.plugins = [
+    CollectionMeta,
+]
 
 
 class Car(ScrubyModel):
