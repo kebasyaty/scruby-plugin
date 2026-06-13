@@ -47,15 +47,32 @@ Scruby.run(plugins=[CollectionMeta])
 
 async def test_scruby_plugin() -> None:
     """Test ScrubyPlugin."""
-    assert ScrubyPlugin.scruby_version == 0
-    assert CollectionMeta.scruby_version == 0
     # Get collection `Car`.
     car_coll = await Scruby.collection(Car)
     meta = await car_coll.plugins.collectionMeta.get()
-    assert meta.collection_name == "Car"
-    assert meta.hash_reduce_left == 6
-    assert meta.max_number_branch == 256
-    assert meta.counter_documents == 0
+
+    match ScrubyPlugin.scruby_version:
+        case 0:
+            assert ScrubyPlugin.scruby_version == 0
+            assert CollectionMeta.scruby_version == 0
+            assert meta.collection_name == "Car"
+            assert meta.hash_reduce_left == 6
+            assert meta.max_number_branch == 256
+            assert meta.counter_documents == 0
+        case 1:
+            assert ScrubyPlugin.scruby_version == 1
+            assert CollectionMeta.scruby_version == 1
+            assert meta.collection_name == "Car"
+            assert meta.hash_reduce_left == 6
+            assert meta.max_number_branch == 256
+            assert meta.counter_documents == 0
+        case 2:
+            assert ScrubyPlugin.scruby_version == 2
+            assert CollectionMeta.scruby_version == 2
+            assert meta.collection_name == "Car"
+            assert meta.hash_reduce_left == 5
+            assert meta.max_number_branch == 4096
+            assert meta.counter_documents == 0
     #
     # Delete DB.
     Scruby.napalm()
