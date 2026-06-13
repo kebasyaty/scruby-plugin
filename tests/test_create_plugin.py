@@ -6,7 +6,7 @@ from typing import Any
 
 import pytest
 from pydantic import Field
-from scruby import Scruby, ScrubyModel
+from scruby import Scruby, ScrubyConfig, ScrubyModel
 
 from scruby_plugin import ScrubyPlugin
 
@@ -41,8 +41,10 @@ class Car(ScrubyModel):
     )
 
 
-# Activate database.
-Scruby.run(plugins=[CollectionMeta])
+# Plugins connection.
+ScrubyConfig.plugins = [
+    CollectionMeta,
+]
 
 
 async def test_scruby_plugin() -> None:
