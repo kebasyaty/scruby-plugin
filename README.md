@@ -20,7 +20,7 @@ Library for creating plugins for <a href="https://pypi.org/project/scruby/" alt=
 
 <br>
 
-[![Requirements](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v1/assets/links/requirements.svg "Requirements")](https://github.com/kebasyaty/scruby-plugin/blob/v1/REQUIREMENTS.md "Requirements")
+[![Requirements](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v2/assets/links/requirements.svg "Requirements")](https://github.com/kebasyaty/scruby-plugin/blob/v2/REQUIREMENTS.md "Requirements")
 
 ## Installation
 
@@ -103,6 +103,6 @@ if __name__ == "__main__":
 
 <br>
 
-[![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v1/assets/links/changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v1/CHANGELOG.md "Changelog")
+[![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v2/assets/links/changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v2/CHANGELOG.md "Changelog")
 
-[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v1/assets/links/mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE "MIT")
+[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v2/assets/links/mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE "MIT")
