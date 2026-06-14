@@ -36,7 +36,9 @@ Repository = "https://github.com/kebasyaty/scruby-plugin"
 Source = "https://github.com/kebasyaty/scruby-plugin"
 
 [dependency-groups]
-dev = []
+dev = [
+    "scruby>=2.0.0,<3.0.0",
+]
 docs = []
 lint = ["pre-commit>=4.5.1", "pyrefly>=0.47.0", "ruff>=0.14.11"]
 test = ["pytest>=9.0.2", "pytest-asyncio>=1.3.0"]
