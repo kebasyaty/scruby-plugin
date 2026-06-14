@@ -70,8 +70,8 @@ async def test_scruby_plugin() -> None:
             assert ScrubyPlugin.SCRUBY_VERSION == 2
             assert CollectionMeta.SCRUBY_VERSION == 2
             assert meta.collection_name == "Car"
-            assert meta.hash_reduce_left == 5
-            assert meta.max_number_branch == 4096
+            assert meta.hash_reduce_left == 7
+            assert meta.max_number_branch == 16
             assert meta.counter_documents == 0
     #
     # Delete DB.
