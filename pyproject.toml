@@ -1,6 +1,6 @@
 [project]
 name = "scruby-plugin"
-version = "2.0.0"
+version = "2.0.1"
 description = "Library for creating Scruby plugins."
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
@@ -37,7 +37,7 @@ Source = "https://github.com/kebasyaty/scruby-plugin"
 
 [dependency-groups]
 dev = [
-    "scruby>=2.0.0,<3.0.0",
+  "scruby>=2.0.0,<3.0.0",
 ]
 docs = []
 lint = ["pre-commit>=4.5.1", "pyrefly>=0.47.0", "ruff>=0.14.11"]
