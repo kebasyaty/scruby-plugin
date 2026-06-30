@@ -503,7 +503,7 @@ wheels = [
 
 [[package]]
 name = "scruby-plugin"
-version = "2.2.1"
+version = "2.2.2"
 source = { editable = "." }
 
 [package.dev-dependencies]
