@@ -15,7 +15,7 @@ Library for creating plugins for <a href="https://pypi.org/project/scruby/" alt=
     <a href="https://docs.astral.sh/ruff/" alt="Code style: Ruff"><img src="https://img.shields.io/badge/code%20style-Ruff-FDD835.svg" alt="Code style: Ruff"></a>
     <a href="https://pypi.org/project/scruby-plugin"><img src="https://img.shields.io/pypi/format/scruby-plugin" alt="Format"></a>
     <a href="https://pepy.tech/projects/scruby-plugin"><img src="https://static.pepy.tech/badge/scruby-plugin" alt="PyPI Downloads"></a>
-    <a href="https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE" alt="GitHub license"><img src="https://img.shields.io/github/license/kebasyaty/scruby-plugin" alt="GitHub license"></a>
+    <a href="https://github.com/kebasyaty/scruby-plugin/blob/v2/LICENSE" alt="GitHub license"><img src="https://img.shields.io/github/license/kebasyaty/scruby-plugin" alt="GitHub license"></a>
 </p>
 
 <br>
@@ -108,4 +108,4 @@ if __name__ == "__main__":
 
 [![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v2/assets/links/changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v2/CHANGELOG.md "Changelog")
 
-[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v2/assets/links/mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/main/LICENSE "MIT")
+[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v2/assets/links/mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/v2/LICENSE "MIT")
