@@ -17,7 +17,7 @@ class ScrubyPlugin:
     """Base class for creating Scruby plugins."""
 
     # What version of Scruby is the plugin for?
-    SCRUBY_VERSION: ClassVar[Literal[2]] = 2
+    SCRUBY_VERSION: ClassVar[Literal[3]] = 3
 
     def __init__(self, scruby_self: Scruby) -> None:  # ruff:ignore[undocumented-public-init]
         self.scruby_self = weakref.ref(scruby_self)
