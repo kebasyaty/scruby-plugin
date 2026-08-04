@@ -53,8 +53,8 @@ async def test_scruby_plugin() -> None:
     car_coll = Scruby(Car)
     meta = await car_coll.plugins.collectionMeta.get()
 
-    assert ScrubyPlugin.SCRUBY_VERSION == 2
-    assert CollectionMeta.SCRUBY_VERSION == 2
+    assert ScrubyPlugin.SCRUBY_VERSION == 3
+    assert CollectionMeta.SCRUBY_VERSION == 3
     assert meta.collection_name == "Car"
     assert meta.hash_reduce_left == 7
     assert meta.max_number_branch == 16

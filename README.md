@@ -15,12 +15,12 @@ Library for creating plugins for <a href="https://pypi.org/project/scruby/" alt=
     <a href="https://docs.astral.sh/ruff/" alt="Code style: Ruff"><img src="https://img.shields.io/badge/code%20style-Ruff-FDD835.svg" alt="Code style: Ruff"></a>
     <a href="https://pypi.org/project/scruby-plugin"><img src="https://img.shields.io/pypi/format/scruby-plugin" alt="Format"></a>
     <a href="https://pepy.tech/projects/scruby-plugin"><img src="https://static.pepy.tech/badge/scruby-plugin" alt="PyPI Downloads"></a>
-    <a href="https://github.com/kebasyaty/scruby-plugin/blob/v2/LICENSE" alt="GitHub license"><img src="https://img.shields.io/github/license/kebasyaty/scruby-plugin" alt="GitHub license"></a>
+    <a href="https://github.com/kebasyaty/scruby-plugin/blob/v3/LICENSE" alt="GitHub license"><img src="https://img.shields.io/github/license/kebasyaty/scruby-plugin" alt="GitHub license"></a>
 </p>
 
 <br>
 
-[![Requirements](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v2/assets/links/requirements.svg "Requirements")](https://github.com/kebasyaty/scruby-plugin/blob/v2/REQUIREMENTS.md "Requirements")
+[![Requirements](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v3/assets/links/requirements.svg "Requirements")](https://github.com/kebasyaty/scruby-plugin/blob/v3/REQUIREMENTS.md "Requirements")
 
 ## Installation
 
@@ -31,6 +31,8 @@ uv add "scruby-plugin>=0.8.2,<1.0.0"
 uv add "scruby-plugin>=1.0.0,<2.0.0"
 # For Scruby version 2
 uv add "scruby-plugin>=2.0.0,<3.0.0"
+# For Scruby version 3
+uv add "scruby-plugin>=3.0.0,<4.0.0"
 ```
 
 ## Usage
@@ -106,6 +108,6 @@ if __name__ == "__main__":
 
 <br>
 
-[![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v2/assets/links/changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v2/CHANGELOG.md "Changelog")
+[![Changelog](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v3/assets/links/changelog.svg "Changelog")](https://github.com/kebasyaty/scruby-plugin/blob/v3/CHANGELOG.md "Changelog")
 
-[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v2/assets/links/mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/v2/LICENSE "MIT")
+[![MIT](https://raw.githubusercontent.com/kebasyaty/scruby-plugin/v3/assets/links/mit.svg "MIT")](https://github.com/kebasyaty/scruby-plugin/blob/v3/LICENSE "MIT")
