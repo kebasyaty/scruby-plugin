@@ -33,6 +33,8 @@ uv add "scruby-plugin>=1.0.0,<2.0.0"
 uv add "scruby-plugin>=2.0.0,<3.0.0"
 # For Scruby version 3
 uv add "scruby-plugin>=3.0.0,<4.0.0"
+# For Scruby version 4
+uv add "scruby-plugin>=4.0.0,<5.0.0"
 ```
 
 ## Usage
